@@ -1,0 +1,40 @@
+<html>
+  <head>
+  
+      <meta name="viewport" content="width=device-width,initial-scale=1.0">
+	  <style>
+	      body{
+		  margin:0;padding:0;
+		  
+		  }
+		  .background{
+		  height:500px;
+		  width:100%;
+		  background:url("new.gif");
+		  background-repeat:no-repeat;
+		  background-position:center;
+		  }
+		  .background .anchor{
+		  position:relative;
+		  text-align:center;
+		  top:450px;
+		  font-size:26px;}
+		  .background .anchor a{
+		  color:red;
+		  text-decoration:none;
+		  border:2px solid white;
+		  font-family:courier;
+		  font-weight:bold;
+		  border-radius:10px;}
+	  </style>
+  </head>
+   <body>
+         <div class="background">
+             <div class="anchor">		   
+		   <a href="whatsapp://send?text=please check this<?php the title();?>.ckick here:<?php the permalink();?>">
+		       share on whatsapp
+		   </a>
+		      </div>
+		 </div>
+   </body>
+</html>
